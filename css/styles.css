@@ -1,0 +1,74 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .hero {
+    background: radial-gradient(circle at top left, #e6cbb6, #fde6ef, #dcf7fc, #c2f0f7);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Brand stays near the top but with smaller gap */
+  .brand {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px; /* reduced gap */
+  }
+  
+  /* Adjust content position */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px; /* reduce or adjust this */
+    max-width: 800px;
+  }
+  
+  
+  h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    margin-top: 100px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Button styles */
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1.5px solid #000;
+    text-decoration: none;
+    color: #000;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
